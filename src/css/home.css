@@ -1,0 +1,32 @@
+.home-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.home-nav__link {
+  display: inline-flex;
+  min-width: 180px;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #285fdb;
+  color: #fff;
+  font-weight: 600;
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.home-nav__link:hover {
+  transform: translateY(-1px);
+  background-color: #1d4ed8;
+}
+
+.home-nav__link:focus-visible {
+  outline: 3px solid #18243a;
+  outline-offset: 3px;
+}
